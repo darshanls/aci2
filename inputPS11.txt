@@ -1,0 +1,13 @@
+PS11
+SCENARIO_1_BEARING_FAILURE
+P_B=0.08
+P_T_given_B=0.85
+P_T_given_notB=0.20
+P_V_given_B=0.90
+P_V_given_notB=0.15
+SCENARIO_2_COOLING_SYSTEM
+P_C=0.06
+P_S1_given_C=0.92
+P_S1_given_notC=0.12
+P_S2_given_C=0.88
+P_S2_given_notC=0.10

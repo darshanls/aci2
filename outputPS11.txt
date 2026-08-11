@@ -1,0 +1,28 @@
+Scenario 1 - Joint probability table
+B   T   V   Probability
+T   T   T   0.0612
+T   T   F   0.0068
+T   F   T   0.0108
+T   F   F   0.0012
+F   T   T   0.0276
+F   T   F   0.1564
+F   F   T   0.1104
+F   F   F   0.6256
+
+Scenario 1: Bearing Failure Detection
+
+P(B | T) = 0.2698
+P(B | V) = 0.3429
+P(B | T and V) = 0.6892
+
+Temperature and Vibration are not independent without evidence.
+Temperature and Vibration are conditionally independent given Bearing Failure.
+
+Scenario 2: Cooling System Failure
+
+P(C | S1) = 0.3286
+P(C | S2) = 0.3597
+P(C | S1 and S2) = 0.8115
+
+Sensor Alarm 1 and Sensor Alarm 2 are not independent without evidence.
+Sensor Alarm 1 and Sensor Alarm 2 are conditionally independent given Cooling Failure.
